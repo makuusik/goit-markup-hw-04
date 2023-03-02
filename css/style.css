@@ -488,9 +488,8 @@ img {
 
 /* FOOTER */
 
-.container .footer-text {
+.footer-text {
   width: 264px;
-  margin-right: 120px;
   margin-top: 16px;
   margin-bottom: 0;
   color: var(--border-color);
@@ -505,4 +504,20 @@ img {
 .footer .container {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-ico {
+  width: 40px;
+  height: 40px;
+}
+
+.sec-footer-text {
+  font-weight: 500;
+  color: var(--border-color);
 }
