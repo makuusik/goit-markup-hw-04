@@ -472,13 +472,6 @@ img {
   padding: 0;
 }
 
-.customers-list .item {
-  padding: 16px 32px;
-  border: none;
-  border: 1px solid var(--sec-border-color);
-  border-radius: 4px;
-}
-
 .customers-list .item + .item {
   margin-left: 24px;
 }
@@ -487,6 +480,14 @@ img {
   display: block;
   width: 104px;
   height: 56px;
+}
+
+.item .customers-link {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--sec-border-color);
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 
 /* FOOTER */
