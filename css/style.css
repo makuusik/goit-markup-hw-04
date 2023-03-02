@@ -538,21 +538,19 @@ img {
   display: flex;
 }
 
-.footer-social .footer-ico {
-  display: block;
-}
-
 .footer-social .item + .item {
   margin-left: 16px;
 }
 
 .footer-ico {
+  display: block;
   width: 40px;
   height: 40px;
   fill: rgba(255, 255, 255, 0.1);
 }
 
-.footer-ico:hover {
+.footer-ico:hover,
+.footer-ico:focus {
   fill: var(--social-color);
 }
 
