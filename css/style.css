@@ -508,8 +508,6 @@ img {
 
 .footer-social {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .footer-ico {
@@ -520,4 +518,8 @@ img {
 .sec-footer-text {
   font-weight: 500;
   color: var(--border-color);
+}
+
+.container-footer {
+  display: flex;
 }
