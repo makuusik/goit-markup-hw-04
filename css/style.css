@@ -8,6 +8,7 @@
   --black-color: #000000;
   --white-color: #ffffff;
   --sec-bg-color: #2e2f42;
+  --sec-border-color: #8e8f99;
 }
 
 body {
@@ -324,6 +325,7 @@ img {
   width: 40px;
   height: 40px;
   margin-top: 8px;
+  cursor: pointer;
 }
 
 .svg-container {
@@ -440,6 +442,42 @@ img {
   padding-bottom: 32px;
   padding-left: 16px;
 }
+
+/* CUSTOMERS */
+.customers-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.customers {
+  width: 104px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
+}
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.customers-list .item {
+  padding: 16px 32px;
+  border: none;
+  border: 1px solid var(--sec-border-color);
+  border-radius: 4px;
+}
+
+.customers-list .item + .item {
+  margin-left: 24px;
+}
+
 /* FOOTER */
 
 .container .footer-text {
