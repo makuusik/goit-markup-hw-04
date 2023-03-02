@@ -482,7 +482,12 @@ img {
   height: 56px;
 }
 
-.item .customers-link {
+.customers-list .item {
+  width: 168px;
+  height: 88px;
+}
+
+.customers-link {
   display: block;
   width: 100%;
   border: 1px solid var(--sec-border-color);
