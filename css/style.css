@@ -9,6 +9,8 @@
   --white-color: #ffffff;
   --sec-bg-color: #2e2f42;
   --sec-border-color: #8e8f99;
+  --sec-header-button: #404bbf;
+  --social-color: #31d0aa;
 }
 
 body {
@@ -198,6 +200,11 @@ img {
   border: 1px solid transparent;
 }
 
+.header-button:hover,
+.header-button:focus {
+  background-color: var(--sec-header-button);
+}
+
 .filters {
   /* background-color: tomato; */
   display: flex;
@@ -225,7 +232,8 @@ img {
 }
 
 .filters .link:hover,
-.filters .link:active {
+.filters .link:active,
+.filters .link:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
@@ -480,6 +488,7 @@ img {
   display: block;
   width: 104px;
   height: 56px;
+  /* fill: var(--sec-border-color); */
 }
 
 .customers-list .item {
@@ -493,16 +502,25 @@ img {
   border: 1px solid var(--sec-border-color);
   border-radius: 4px;
   padding: 16px 32px;
+  fill: var(--sec-border-color);
+}
+
+.customers-link:hover,
+.customers-link:focus {
+  border: 1px solid var(--sec-header-button);
+  fill: var(--sec-header-button);
 }
 
 /* FOOTER */
+.footer-logo-text {
+  margin-right: 120px;
+}
 
 .footer-text {
   width: 264px;
   margin-top: 16px;
   margin-bottom: 0;
   color: var(--border-color);
-  margin-right: 120px;
 }
 
 .footer {
@@ -531,6 +549,11 @@ img {
 .footer-ico {
   width: 40px;
   height: 40px;
+  fill: rgba(255, 255, 255, 0.1);
+}
+
+.footer-ico:hover {
+  fill: var(--social-color);
 }
 
 .sec-footer-text {
